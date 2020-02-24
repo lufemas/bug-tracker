@@ -1,0 +1,21 @@
+.tab-card{
+  /* background-color: white; */
+  height: 30em;
+  width: 25em;
+  border: solid green;
+}
+
+.tabs{
+  height: 2em;
+}
+
+.tab{
+  height: 100%;
+  border: none;
+  padding: auto 4em;
+}
+
+.forms{
+  background-color: white;
+  height: 100%;
+}

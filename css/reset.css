@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.25;
+  font-family: sans-serif;
+  font-size: 1em;
+  background-color: #fff;
+  color: #222;
+}
+
+html, body {
+  height: 100%;
+}
+
+* , *::before, *::after{
+  box-sizing: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  /* font-weight: inherit; */
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  /* height: auto; Don't have to do that, just for very old browsers */
+  /* display: block; */
+  vertical-align: bottom;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.list {
+  list-style: disc;
+  padding-left: 2em;
+}
+
+ol.list {
+  list-style: decimal;
+  padding-left: 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote {
+  margin: 1rem 0;
+}
+
+h1 { font-size: 2em;}
+h2 { font-size: 1.75em;}
+h3 { font-size: 1.50em;}
+h4 { font-size: 1.25em;}
+h5 { font-size: 1.125em;}
+h6 { font-size: 1em;}
+p {
+
+}
+
+input, textarea, button {
+  border-image: none;
+  border-style: solid;
+  border-width: thin;
+  border-color: #aaa;
+  vertical-align: middle;
+}
+
+[type="checkbox"], [type="radio"] {
+  vertical-align: middle;
+}
