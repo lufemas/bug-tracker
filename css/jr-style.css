@@ -1,8 +1,9 @@
 .tab-card{
   /* background-color: white; */
-  height: 30em;
+  /* height: 30em; */
   width: 25em;
-  border: solid green;
+  
+  /* border: solid green; */
 }
 
 .tabs{
@@ -10,12 +11,64 @@
 }
 
 .tab{
+  margin: 0;
   height: 100%;
   border: none;
   padding: auto 4em;
+  border: solid #333 0.01em;
+  border-bottom: none;
+  border-radius: 0.25em 0.25em 0 0;
+  background-color: thistle;
+  color:#555;
+
+}
+
+.tab.active {
+  background-color: white;
+  color:#333;
 }
 
 .forms{
   background-color: white;
-  height: 100%;
+  height: auto;
+  padding: 2em;
+  color: #666;
+  border-radius: 0 .25em .25em .25em;
+
+}
+
+.forms label {
+  margin: 1em 0 .25em 0;
+  display: inline-block;
+}
+
+.forms input {
+  padding: 0 .5em;
+  display: block;
+  width: 100%;
+  color: #333;
+  line-height: 2.5em;
+  border-radius: .25em;
+  border: solid #999 0.01em;
+  /* box-shadow: -.05em -.05em .25em 0em #aaa inset; */
+}
+
+.forms .btn{
+  margin: 2em 0 1em 0;
+  border: none;
+  background-color: tomato;
+  color: white;
+}
+
+.google-signin{
+  margin: 0;
+  border-radius: .25em;
+  border: none;
+  height: 2.5em;
+  /* background-color: tomato; */
+  color: #333;
+  width: 100%;
+  background: lightgray url('../img/google-logo.svg') no-repeat;
+  background-position: 2.5em;
+  background-size: 1.25em;
 }

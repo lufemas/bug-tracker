@@ -12,7 +12,7 @@
   <header></header>
   <main>
     <article class="btracker-about">
-      <h1>.bTracker</h1>
+      <h1 class="app-title">.bTracker</h1>
       <h2>Bug and Issue Tracker</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod atque odit recusandae deserunt rem quo provident consequatur voluptatem deleniti nihil!</p>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod atque odit recusandae deserunt rem quo provident consequatur voluptatem deleniti nihil!</p>
@@ -21,11 +21,18 @@
 
     <article class="tab-card">
       <div class="tabs">
-        <button class="tab">Sign In</button>
+        <button class="tab active">Sign In</button>
         <button class="tab">Sign Up</button>
       </div>
       <div class="forms">
-        <section class="signin-form"></section>
+        <section class="signin-form">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="">
+          <input class="btn" type="submit" value="Sign In">
+          <button class="google-signin">Sign In with Google</button>
+        </section>
         <section class="signup-form"></section>
       </div>
     </article>

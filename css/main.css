@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body{
   background-color: #333;
-  color: white;;
+  color: white;
+  font-family: 'Roboto';
 }
 
 main {
@@ -11,11 +14,13 @@ main {
 }
 
 .btracker-about {
-  border: solid white;
-  width: 30%;
+  /* border: solid white; */
+  width: 40%;
   height: 60%;
 }
 
-h1 {
+h1.app-title {
   margin: 0;
+  font-size: 5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
