@@ -20,7 +20,12 @@
   border-radius: 0.25em 0.25em 0 0;
   background-color: thistle;
   color:#555;
+  display: inline-block;
+}
 
+.tab:hover{
+  cursor: pointer;
+  background-color: lightgray;
 }
 
 .tab.active {
@@ -60,15 +65,30 @@
   color: white;
 }
 
+.forms .btn:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
 .google-signin{
   margin: 0;
   border-radius: .25em;
-  border: none;
+  border: solid 0.01em #888;
   height: 2.5em;
   /* background-color: tomato; */
   color: #333;
   width: 100%;
-  background: lightgray url('../img/google-logo.svg') no-repeat;
+  background: white url('../img/google-logo.svg') no-repeat;
   background-position: 2.5em;
   background-size: 1.25em;
+}
+
+.google-signin:hover{
+  background-color: lightgray;
+  border-color: white;
+  cursor: pointer;
+}
+
+.signin-form{
+  display: none;
 }
