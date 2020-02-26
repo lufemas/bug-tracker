@@ -1,0 +1,42 @@
+body {
+  background-color: #333;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.projects-nav{
+  padding: 1em;
+  background-color: #452d4d;
+  color: white;
+}
+
+ul{
+  margin: 0;
+}
+
+.projects-summary{
+  border: solid .15em #353535;
+  margin: 3em auto;
+  width: 30%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  /* font-weight: bolder; */
+}
+
+.projects-summary ul li{
+  padding: 0.5em;
+  padding-left: 1em;
+}
+
+.projects-summary ul li:nth-child(2n-1){
+  /* font-weight: bolder; */
+  background-color: rgb(65, 65, 65);
+}
+
+.projects-summary ul li:first-child{
+  font-weight: bolder;
+  background-color: rgb(54, 33, 63);
+  padding: 1em;
+
+}
